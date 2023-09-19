@@ -8,6 +8,7 @@ using Stride.Core.Collections;
 using Stride.Core.Diagnostics;
 using Stride.Core.Mathematics;
 using Stride.Engine;
+using Stride.Engine.Design;
 
 namespace GameMenu
 {
@@ -26,7 +27,7 @@ namespace GameMenu
             AppDomain.CurrentDomain.UnhandledException += CurrentDomainOnUnhandledException;
             try
             {
-                var prefab = this.Content.Load<Prefab>("TestCube");
+                var prefab = this.Content.Load<Prefab>("TestCube1");
                 this.rootSceneEntities1 = this.SceneSystem.SceneInstance.RootScene.Entities;
                 for (int i = 0; i < num; i++)
                 {

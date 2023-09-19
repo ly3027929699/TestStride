@@ -14,5 +14,4 @@ OutputGroupDirectories: {}
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
-RootAssets:
-    - 0fec470a-f3dc-4ec3-9916-cbefb1c6c58a:MainScene
+RootAssets: []

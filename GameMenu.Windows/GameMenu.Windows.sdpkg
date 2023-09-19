@@ -16,8 +16,10 @@ Bundles: []
 TemplateFolders: []
 RootAssets:
     - 377cfb36-cff1-4b91-8a34-9a41b1b6f2c7:Hotfix.dll
+    - 3eff2b38-6991-486c-b6c2-2bfa565263e6:TestCube1
     - 44670e0f-4de9-45a7-ba53-55d97dbec90a:TestCube
     - 6f722d96-de34-482b-a391-24117e543a45:Resources/aaaa
     - b33022b8-e8f8-4eb0-a1d5-e04d22a59b0e:SpriteFont
+    - b371765d-936a-4437-b0fc-f51e14ba1c12:Environment
     - ee9ffdb9-5423-4cf9-8398-c1cf339dcbfb:Resources/Cube
     - f321c979-4ff1-4994-816e-3d68407c3fdc:Resources/Plane

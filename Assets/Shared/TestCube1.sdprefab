@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 3eff2b38-6991-486c-b6c2-2bfa565263e6
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! cc4c638f-abcf-4878-8a8b-5274375009f4
+    Parts:
+        -   Entity:
+                Id: cc4c638f-abcf-4878-8a8b-5274375009f4
+                Name: TestCube1
+                Components:
+                    50490ab1c9dd07b6b50f6009f454da0f: !TransformComponent
+                        Id: ae84f9c3-fc1f-495e-a7e5-9314cece0901
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8ed2f896a23e2671fb60130516b0a2c9: !ModelComponent
+                        Id: 7b503069-9708-4533-9224-8ef395652ddf
+                        Model: ee9ffdb9-5423-4cf9-8398-c1cf339dcbfb:Resources/Cube
+                        Materials: {}
