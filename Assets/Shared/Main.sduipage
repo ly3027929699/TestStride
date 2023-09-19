@@ -616,11 +616,8 @@ Hierarchy:
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
                 DrawLayerNumber: 2
                 Width: 239.0
-                Height: 87.0
-                Margin: {Left: 401.0, Top: 657.0, Bottom: -594.0}
-                MaximumWidth: 3.4028235E+38
-                MaximumHeight: 3.4028235E+38
-                MaximumDepth: 3.4028235E+38
+                Height: 115.0
+                Margin: {Left: 401.0, Top: 644.0, Bottom: -609.0}
                 Content: !TextBlock ref!! fd3f24ed-5efc-4808-8168-64593311ca51
                 PressedImage: !SpriteFromSheet
                     Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
@@ -683,15 +680,12 @@ Hierarchy:
                 Id: fd3f24ed-5efc-4808-8168-64593311ca51
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                Width: 237.75
-                Height: 81.375
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
                 Margin: {}
-                MaximumWidth: 3.4028235E+38
-                MaximumHeight: 3.4028235E+38
-                MaximumDepth: 3.4028235E+38
-                Text: "Click me!1的23455sdfghqwertyuiop"
-                Font: b33022b8-e8f8-4eb0-a1d5-e04d22a59b0e:SpriteFont
-                TextSize: 22.0
+                Text: Click me!
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
                 TextColor: {R: 240, G: 240, B: 240, A: 255}
         -   UIElement: !Button
                 Id: fe6c79da-9aaa-4a4b-a4b6-fb34187955c4
