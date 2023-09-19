@@ -7,17 +7,16 @@ using Stride.Core;
 using Stride.Core.Collections;
 using Stride.Core.Diagnostics;
 using Stride.Core.Mathematics;
-using Stride.Input;
 using Stride.Engine;
 
 namespace GameMenu
 {
-    public class Tes1 : StartupScript
+    public class TestComponent: StartupScript
     {
         [Display("num")] public int num;
         [Display("position")] public Vector3 position;
         //crach if use this
-        [Display("prefab")] public Prefab _prefab;
+        //[Display("prefab")] public Prefab _prefab;
 
         private TrackingCollection<Entity> rootSceneEntities1;
         // Declared public member fields and properties will show in the game studio
