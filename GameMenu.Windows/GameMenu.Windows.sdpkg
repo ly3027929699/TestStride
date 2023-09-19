@@ -1,0 +1,22 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: GameMenu.Windows
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir Assets
+ResourceFolders:
+    - !dir Resources
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 377cfb36-cff1-4b91-8a34-9a41b1b6f2c7:Hotfix.dll
+    - 44670e0f-4de9-45a7-ba53-55d97dbec90a:TestCube
+    - 6f722d96-de34-482b-a391-24117e543a45:Resources/aaaa
+    - ee9ffdb9-5423-4cf9-8398-c1cf339dcbfb:Resources/Cube
+    - f321c979-4ff1-4994-816e-3d68407c3fdc:Resources/Plane

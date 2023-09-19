@@ -1,0 +1,39 @@
+!PrefabAsset
+Id: 44670e0f-4de9-45a7-ba53-55d97dbec90a
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 5ad9a110-e9e6-4582-b6db-e019b40e0ab5
+    Parts:
+        -   Entity:
+                Id: 5ad9a110-e9e6-4582-b6db-e019b40e0ab5
+                Name: Cube
+                Components:
+                    e83e26d93d6a02fe922ebee1392a9398: !TransformComponent
+                        Id: c86ab653-6924-47cc-ad15-91935940a173
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7aac1d3e40044648b3d58ddfd5e1541d: !ModelComponent
+                        Id: 30d76de3-e60d-4946-bde0-54790e27f151
+                        Model: ee9ffdb9-5423-4cf9-8398-c1cf339dcbfb:Resources/Cube
+                        Materials: {}
+                    74d0b211a90dd8335b9579122042f001: !RigidbodyComponent
+                        Id: fd341714-b25d-4940-be5f-cd061cc5dbb3
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes: {}
