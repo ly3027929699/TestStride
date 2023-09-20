@@ -1,0 +1,98 @@
+!PrefabAsset
+Id: efb78b10-d330-4274-a66f-5955b2199a96
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! fb02eaa3-5eed-4c54-90ad-5173d7f5342c
+    Parts:
+        -   Entity:
+                Id: 34c03030-693b-400f-9365-adcda05b9a1b
+                Name: Plane
+                Components:
+                    2e4029edc74afd1400cb50ab8ed9e765: !TransformComponent
+                        Id: 4d372401-7d57-4a7f-a00b-95a91b709005
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 100.0, Y: 0.1, Z: 100.0}
+                        Children: {}
+                    e9b13ff15ff7eae9ce6ae884e0f3aab3: !ModelComponent
+                        Id: af5f38e8-f9a8-493c-8650-b11430e43f20
+                        Model: f321c979-4ff1-4994-816e-3d68407c3fdc:Resources/Plane
+                        Materials:
+                            71eb69f3c0715c089b4dc4979245f222~0: 903f63b3-f381-4d6c-99c2-1f4e52be0b7e:Resources/Material (2)
+                    233598f1361bc82becd98c0da5525b20: !StaticColliderComponent
+                        Id: 7cb72113-f2df-4feb-b912-3511fc6b6a79
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            f643c48489b4b4a7ef55023504207b3f: !StaticPlaneColliderShapeDesc
+                                Normal: {X: 0.0, Y: 1.0, Z: 0.0}
+                                Offset: 0.0
+            Base:
+                BasePartAsset: efb78b10-d330-4274-a66f-5955b2199a96:Environment
+                BasePartId: fa807fb8-d22f-4c27-a1ce-37b169d01090
+                InstanceId: 1e095072-fc78-42b4-a028-c3e09636eb51
+        -   Entity:
+                Id: a39b570d-75be-4d34-b3ac-fdb3fdadb7a5
+                Name: Directional light
+                Components:
+                    4f04f73c1628c86a86be2a99c8aa7dce: !TransformComponent
+                        Id: 0ad68a7b-6a4b-4a21-baf0-60817a38237d
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: -0.57357645, Y: 0.0, Z: 0.0, W: 0.81915206}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    138dc9f059b2ab78011b3a4e3383e1f9: !LightComponent
+                        Id: 37cf750d-ee3a-42c7-ade6-5a73389001a3
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+            Base:
+                BasePartAsset: efb78b10-d330-4274-a66f-5955b2199a96:Environment
+                BasePartId: a70d8540-ed17-4b15-bf65-f0fbc112e480
+                InstanceId: 1e095072-fc78-42b4-a028-c3e09636eb51
+        -   Entity:
+                Id: b910b41d-5b01-4094-b776-42789b142dfe
+                Name: Camera
+                Components:
+                    f0579cf88e69edbff501962b0cc687b6: !TransformComponent
+                        Id: 13c9b570-fd23-486b-b244-31d33db6829e
+                        Position: {X: 0.0, Y: 16.863, Z: 51.569}
+                        Rotation: {X: -0.15384817, Y: 0.0, Z: 0.0, W: 0.9880945}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    17f48cc185915718d5fdf5f71a32a186: !CameraComponent
+                        Id: 402b3c6b-2ce3-40f8-a8da-2308fdc361e7
+                        Name: null
+                        Projection: Perspective
+                        Slot: 33a02921-a3f4-4baa-91b2-b557748dca5e
+            Base:
+                BasePartAsset: efb78b10-d330-4274-a66f-5955b2199a96:Environment
+                BasePartId: 8f8e25e2-4d96-4368-8506-1b7b680a8828
+                InstanceId: 1e095072-fc78-42b4-a028-c3e09636eb51
+        -   Entity:
+                Id: fb02eaa3-5eed-4c54-90ad-5173d7f5342c
+                Name: Environment
+                Components:
+                    8ff3b15af4ec14c26a81c5e6f9568c06: !TransformComponent
+                        Id: fa0e4929-ac48-4507-83da-ec503937b35d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ae8ae95a01ad93c1307e27d955a9746e: ref!! 13c9b570-fd23-486b-b244-31d33db6829e
+                            1deb9176768beb23a11ba896651189fc: ref!! 4d372401-7d57-4a7f-a00b-95a91b709005
+                            6cb6091951516d4799c9e6fc9b7bd8c2: ref!! 0ad68a7b-6a4b-4a21-baf0-60817a38237d

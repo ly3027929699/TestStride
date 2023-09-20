@@ -1,0 +1,7 @@
+!Texture
+Id: b8313166-b291-4a71-a92c-a10d39c470ce
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file C:/Users/Cal/Desktop/OM~1%NVUH3LZM)@4~]VT}4Y.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

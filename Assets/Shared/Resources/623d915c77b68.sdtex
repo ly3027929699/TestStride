@@ -1,0 +1,7 @@
+!Texture
+Id: 1decbbad-da40-4adb-b8fc-aad154d71637
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file C:/Users/Cal/Desktop/623d915c77b68.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

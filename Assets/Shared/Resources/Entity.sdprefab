@@ -1,0 +1,35 @@
+!PrefabAsset
+Id: 86260ba2-edd7-4320-99b9-b42763494b8b
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4365d371-acae-4f64-8ca6-43a7ae509103
+    Parts:
+        -   Entity:
+                Id: 4365d371-acae-4f64-8ca6-43a7ae509103
+                Name: Entity
+                Components:
+                    e116cbd84781ff6003ae00ac4e1e5e99: !TransformComponent
+                        Id: c6a9fe10-08c9-4adc-b7cd-d7455fcf70c8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    788c360058ed27c203c3d91cfd928f99: !GameMenu.Tes1,GameMenu.Game
+                        Id: 586a9bff-ba60-4b39-ad8b-f0639d88d1ca
+                        num: 5000
+                        step: 20
+                        position: {X: 0.0, Y: 11.0, Z: 0.0}
+                        _prefab: 86f866c3-85ed-4df8-9c1f-67e3e393969f:TestCube1 (2)
+                        xRange: {X: -40.0, Y: 40.0}
+                        yRange: {X: 0.0, Y: 15.0}
+                        zRange: {X: -40.0, Y: 40.0}
+                    b7aab3772675e176e8feabb99e450f36: !GameMenu.GameProfiler,GameMenu.Game
+                        Id: 8ca0f7cb-0634-462c-a3dc-d8215bda5b40
+                        Enabled: true
+                        TextColor: {R: 144, G: 238, B: 144, A: 255}
+                        RefreshTime: 500.0
+                        SortingMode: ByTime
+                        FilteringMode: CpuEvents
+                        ResultPage: 1
