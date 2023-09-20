@@ -3,5 +3,5 @@ Id: 5ccda27c-b079-40df-96c6-e4c43166d1a2
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 FontSource: !FileFontProvider
-    Source: !file "../../../../../Unity/阿里巴巴普惠体/Alibaba-PuHuiTi-Regular.otf"
+    Source: !file ../../Resources/Fonts/Alibaba-PuHuiTi-Regular.otf
 FontType: !RuntimeRasterizedSpriteFontType {}
